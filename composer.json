@@ -1,0 +1,14 @@
+{
+    "name": "stichoza/phemoji",
+    "description": "PHP Emoji functions and stuff.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Levan Velijanashvili",
+            "email": "stichoza@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
