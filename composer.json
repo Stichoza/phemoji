@@ -1,14 +1,33 @@
 {
     "name": "stichoza/phemoji",
     "description": "PHP Emoji functions and stuff.",
+    "keywords": ["emoji", "emoticons", "functions", "helpers", "utilites", "php"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Levan Velijanashvili",
-            "email": "stichoza@gmail.com"
+            "email": "me@stichoza.com"
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">=5.5.0",
+        },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Stichoza\\Phemoji\\": "src/"
+        },
+        "psr-4": {
+            "Stichoza\\Phemoji\\": "src/Stichoza/Phemoji/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stichoza\\Phemoji\\Tests\\": "tests/"
+        }
+    }
 }
