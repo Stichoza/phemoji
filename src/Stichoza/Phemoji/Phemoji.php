@@ -12,7 +12,7 @@ class Phemoji extends AnotherClass
 	 */
 	public static function init()
 	{
-		return;
+		return !!@include_once('raw/aliases.php');
 	}
 }
 
