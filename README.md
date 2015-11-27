@@ -1,2 +1,2 @@
 # phemoji
-Emojis in PHP
+Emojis in PHP 🐘
