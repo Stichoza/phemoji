@@ -17,6 +17,14 @@ class Phemoji
 		'😴' => 'sleep',
 		'💀' => 'die',
 		'⏱' => 'time',
+		'🎲' => 'rand',
+		'✉️' => 'mail',
+		'🗑' => 'unlink',
+		'📝' => 'file_put_contents',
+		'⚰' => 'die',
+		'🌎' => 'curl',
+		'🌍' => 'curl',
+		'🌏' => 'curl',
 	];
 	
 	/**
