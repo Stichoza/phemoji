@@ -39,7 +39,7 @@ use Stichoza\Phemoji\Phemoji;
 Phemoji::init();
 ```
 
-> Note: This will define some constants and functions in global scope. Once called it will be available everywhere. If you're using any PHP framework, it would be more convinient if you call this method somewhere in middleware or routes or any other place you prefer.
+> **Note:** This will define some constants and functions in global scope. Once called it will be available everywhere. If you're using any PHP framework, it would be more convinient if you call this method somewhere in middleware or routes or any other place you prefer.
 
 ### Use of emojis
 
@@ -59,4 +59,4 @@ And so on. Take a look at full list in the source of [Phemoji.php](https://githu
 
 ## Disclaimer
 
-This package is created just for fun. I am not responsible if some emoji from this package will burn your house to the ground or murder your cute little kitten. Btw, if it ever kills a cat, notify me and I'll remove this repo from Github. I mean Octocat is also a cat.
+This package is created just for fun. I am not responsible if any emoji from this package will burn your house to the ground or murder your cute little kitten. Btw, if it ever kills a cat, notify me and I'll remove this repo from Github. I mean Octocat is also a cat.
