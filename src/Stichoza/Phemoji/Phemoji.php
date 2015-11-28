@@ -45,15 +45,17 @@ class Phemoji
 		foreach (self::$aliases as $function => $aliases) {
 
 			// Convert to array
-			if (!is_array($aliases)) {
+			if ( ! is_array($aliases)) {
 				$aliases = [$aliases];
 			}
 
 			// Iterate over aliases
 			foreach ($aliases as $alias) {
-				eval('function ' . $alias . '() {
-					return call_user_func_array("' . $function . '", func_get_args());
-				}'); // Eval is not evil at all 😊
+				if ( ! function_exists($alias) ) {
+					eval('function ' . $alias . '() {
+						return call_user_func_array("' . $function . '", func_get_args());
+					}'); // Eval is not evil at all 😊
+				}
 			}
 		}
 	}
