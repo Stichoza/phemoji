@@ -20,7 +20,6 @@ class Phemoji
 		'date' => ['📅', '📆', '🗓'],
 		'die' => ['💀', '⚰'],
 		'empty' => [/*'❎'*/], // Won't work
-		'eval' => '💩',
 		'explode' => ['💣', '💥'],
 		'file_get_contents' => '📄',
 		'file_put_contents' => '📝',
@@ -36,8 +35,9 @@ class Phemoji
 		'sprintf' => '🖍',
 		'strtolower' => '🔡',
 		'strtoupper' => '🔠',
-		'time' => '⏱',
+		'time' => ['⏱', '⏰'],
 		'unlink' => '🗑',
+		'var_dump' => '💩',
 	];
 	
 	/**
