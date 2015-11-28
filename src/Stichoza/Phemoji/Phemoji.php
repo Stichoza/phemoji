@@ -12,13 +12,24 @@ class Phemoji
 	 * Function aliases
 	 */
 	private static $aliases = [
+		'array_rand' => '🎲',
+		'base64_decode' => '🔓',
+		'base64_encode' => '🔒',
+		'count' => '🔢',
 		'curl' => ['🌎', '🌍', '🌏'],
 		'date' => ['📅', '📆', '🗓'],
 		'die' => ['💀', '⚰'],
+		'empty' => '❎',
 		'file_put_contents' => '📝',
+		'isset' => '✅',
 		'mail' => ['✉️', '📧'],
-		'rand' => ['🎲', '🎰'],
+		'phpinfo' => 'ℹ️',
+		'print' => '✏️',
+		'printf' => '🖌',
+		'rand' => '🎰',
+		'shuffle' => '🔀',
 		'sleep' => ['💤', '😴'],
+		'sprintf' => '🖍',
 		'time' => '⏱',
 		'unlink' => '🗑',
 	];
