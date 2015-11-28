@@ -22,6 +22,7 @@ class Phemoji
 		'empty' => [/*'❎'*/], // Won't work
 		'eval' => '💩',
 		'explode' => ['💣', '💥'],
+		'file_get_contents' => '📄',
 		'file_put_contents' => '📝',
 		'ini_set' => ['⚙'],
 		'isset' => [/*'✅'*/], // Won't work
