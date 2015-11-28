@@ -12,19 +12,15 @@ class Phemoji
 	 * Function aliases
 	 */
 	private static $aliases = [
-		'📅' => 'date',
-		'💤' => 'sleep',
-		'😴' => 'sleep',
-		'💀' => 'die',
-		'⏱' => 'time',
-		'🎲' => 'rand',
-		'✉️' => 'mail',
-		'🗑' => 'unlink',
-		'📝' => 'file_put_contents',
-		'⚰' => 'die',
-		'🌎' => 'curl',
-		'🌍' => 'curl',
-		'🌏' => 'curl',
+		'curl' => ['🌎', '🌍', '🌏'],
+		'date' => ['📅', '📆', '🗓'],
+		'die' => ['💀', '⚰'],
+		'file_put_contents' => '📝',
+		'mail' => ['✉️'],
+		'rand' => '🎲',
+		'sleep' => ['💤', '😴'],
+		'time' => '⏱',
+		'unlink' => '🗑',
 	];
 	
 	/**
@@ -46,10 +42,19 @@ class Phemoji
 		}
 		
 		// Wow that's some scary stuff dude.
-		foreach (self::$aliases as $key => $value) {
-			eval('function ' . $key . '() {
-				return call_user_func_array("' . $value . '", func_get_args());
-			}'); // Eval is not evil at all 😊
+		foreach (self::$aliases as $function => $aliases) {
+
+			// Convert to array
+			if (!is_array($aliases)) {
+				$aliases = [$aliases];
+			}
+
+			// Iterate over aliases
+			foreach ($aliases as $alias) {
+				eval('function ' . $alias . '() {
+					return call_user_func_array("' . $function . '", func_get_args());
+				}'); // Eval is not evil at all 😊
+			}
 		}
 	}
 }
