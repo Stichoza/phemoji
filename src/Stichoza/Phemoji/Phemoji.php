@@ -19,19 +19,24 @@ class Phemoji
 		'curl' => ['🌎', '🌍', '🌏'],
 		'date' => ['📅', '📆', '🗓'],
 		'die' => ['💀', '⚰'],
-		'empty' => '❎',
+		'empty' => [/*'❎'*/], // Won't work
 		'file_put_contents' => '📝',
-		'isset' => '✅',
+		'isset' => [/*'✅'*/], // Won't work
 		'mail' => ['✉️', '📧'],
 		'phpinfo' => 'ℹ️',
-		'print' => '✏️',
-		'printf' => '🖌',
+		'printf' => ['✏️'],
 		'rand' => '🎰',
 		'shuffle' => '🔀',
 		'sleep' => ['💤', '😴'],
 		'sprintf' => '🖍',
 		'time' => '⏱',
 		'unlink' => '🗑',
+		'explode' => ['💣', '💥'],
+		'ini_set' => ['⚙'],
+		'strtolower' => '🔡',
+		'strtoupper' => '🔠',
+		'preg_split' => '✂️',
+		'eval' => '💩',
 	];
 	
 	/**
