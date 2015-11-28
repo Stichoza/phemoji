@@ -20,23 +20,23 @@ class Phemoji
 		'date' => ['📅', '📆', '🗓'],
 		'die' => ['💀', '⚰'],
 		'empty' => [/*'❎'*/], // Won't work
+		'eval' => '💩',
+		'explode' => ['💣', '💥'],
 		'file_put_contents' => '📝',
+		'ini_set' => ['⚙'],
 		'isset' => [/*'✅'*/], // Won't work
 		'mail' => ['✉️', '📧'],
 		'phpinfo' => 'ℹ️',
+		'preg_split' => '✂️',
 		'printf' => ['✏️'],
 		'rand' => '🎰',
 		'shuffle' => '🔀',
 		'sleep' => ['💤', '😴'],
 		'sprintf' => '🖍',
-		'time' => '⏱',
-		'unlink' => '🗑',
-		'explode' => ['💣', '💥'],
-		'ini_set' => ['⚙'],
 		'strtolower' => '🔡',
 		'strtoupper' => '🔠',
-		'preg_split' => '✂️',
-		'eval' => '💩',
+		'time' => '⏱',
+		'unlink' => '🗑',
 	];
 	
 	/**
