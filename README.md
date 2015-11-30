@@ -1,7 +1,7 @@
 Phemoji
 ====================
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/Stichoza/phemoji.svg)](https://packagist.org/packages/stichoza/phemoji) [![Total Downloads](https://img.shields.io/packagist/dt/Stichoza/phemoji.svg)](https://packagist.org/packages/stichoza/phemoji) [![Downloads Month](https://img.shields.io/packagist/dm/Stichoza/phemoji.svg)](https://packagist.org/packages/stichoza/phemoji)
+![](https://img.shields.io/badge/build-👍-44cc11.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/Stichoza/phemoji.svg)](https://packagist.org/packages/stichoza/phemoji) [![Total Downloads](https://img.shields.io/packagist/dt/Stichoza/phemoji.svg)](https://packagist.org/packages/stichoza/phemoji) [![Downloads Month](https://img.shields.io/packagist/dm/Stichoza/phemoji.svg)](https://packagist.org/packages/stichoza/phemoji)
 
 Emojis in PHP :elephant:
 
